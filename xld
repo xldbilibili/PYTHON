@@ -1,0 +1,25 @@
+""""""  # 后端
+a = float(input("please enter the number"))  # 让用户输入数字（小数或整数）
+b = float(input("please enter another number"))  # 输入另一个（小数或整数）
+c = float(input("please enter another number"))  # 再输一个（doge）
+all_number1 = a + b + c  # 定义第一个数值
+all_number2 = a * b * c  # 定义第二个数值
+all_number3 = a / b / c  # 定义第三个数值
+all_number4 = a + b + c  # 定义第四个数值
+       #检测
+
+""""""
+""""""  # 前端
+Q = input("你想用什么运算？乘法？ 加法？ 除法？减法？")
+if Q == "加法":
+    print(all_number1)
+Q2 = input("再输一遍！！技术有限")
+if Q2 == "乘法":
+    print(all_number2)
+Q3 = input("再输一遍技术有限")
+if Q3 =="除法":
+    print(all_number3)
+Q4 = input("enter again！！")
+if Q4 =="减法":
+    print(all_number4)
+""""""
